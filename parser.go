@@ -1,5 +1,7 @@
 package xkb
 
+//go:generate go run golang.org/x/tools/cmd/goyacc parser.y
+
 import "io"
 
 const (
